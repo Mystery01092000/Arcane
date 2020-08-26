@@ -1,8 +1,8 @@
 from gtts import gTTS
 import speech_recognition as sr
 from pygame import mixer
-import my_commands
-import speech_reco
+from my_commands import *
+from speech_reco import *
 import random
 
 
@@ -12,4 +12,16 @@ def arcane(command):
         "Excuse me?",
         "Can you please repeat that?"
     ]
+
+    if 'Hello' in command:
+        talk("Hello! I am Arcane. How can I help you?")
+
+    else:
+        error = random.choice(errors)
+        talk(error)
+
+talk("Arcane here!")
+
+while(True):
+    arcane(myCommand())
 
