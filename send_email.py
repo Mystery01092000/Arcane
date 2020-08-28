@@ -20,3 +20,15 @@ def send_email(command):
 
 
         #encrypt session
+        mail.starttls()
+
+        #login
+        mail.login('your_gmail', 'your_gmail_password')
+
+        #send message
+        mail.sendmail('FROM','TO',content)
+
+        #end the connection
+        mail.close()
+
+        talk('Email send.')
