@@ -1,5 +1,6 @@
 from sys import platform
 
+from Basic.open_google_chrome import chrome
 
 if __name__ == "__main__":
     print("WELCOME TO COMMAND LINE OF ARCANE BOT")
@@ -9,4 +10,6 @@ if __name__ == "__main__":
     platform_os = platform
 
     print(platform_os)
-    
+
+    chrome(platform_os)
+
