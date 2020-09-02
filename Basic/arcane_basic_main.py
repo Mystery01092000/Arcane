@@ -1,4 +1,4 @@
-
+from sys import platform
 
 
 if __name__ == "__main__":
@@ -6,3 +6,7 @@ if __name__ == "__main__":
 
     print("THERE ARE A LOTS OF DIFFERENT FUNCTIONALITY I CAN PERFORM FOR YOU")
     print("PLEASE GUIDE ME, AND I WILL HELP YOU!")
+    platform_os = platform
+
+    print(platform_os)
+    
