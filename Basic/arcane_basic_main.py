@@ -9,7 +9,6 @@ if __name__ == "__main__":
     print("PLEASE GUIDE ME, AND I WILL HELP YOU!")
     platform_os = platform
 
-    print(platform_os)
+    chrome(platform_os) #To open chrome
 
-    chrome(platform_os)
 
