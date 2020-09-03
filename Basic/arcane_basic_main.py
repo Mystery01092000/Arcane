@@ -2,6 +2,8 @@ from sys import platform
 import os
 import sounddevice as sd
 from scipy.io.wavfile import write
+
+from Basic.email_work import send_plain_text_mail
 from Basic.google_search import search_google
 from Basic.open_google_chrome import chrome
 from playsound import playsound
@@ -39,5 +41,5 @@ if __name__ == "__main__":
     # chrome(platform_os) #To open chrome
     # search_google("Search what you want to search") #this command will search and open in chrome
     search_google("Open YouTube")
-
+    send_plain_text_mail()
     #os.remove(path)
