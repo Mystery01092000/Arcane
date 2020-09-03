@@ -3,6 +3,8 @@ import sys
 
 def search_google(content):
     count = 0
+    if content == "Open YouTube":
+        chrome(sys.platform, "https:/youtube.com")
     try:
         from googlesearch import search
     except ImportError:
