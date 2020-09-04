@@ -5,3 +5,4 @@ Arcane is an personal assistant on mystery01092000. It is made using python libr
 ## Features added:
 1. Speech recognition
 2. Open google and Search
+3. Send Mail
