@@ -12,7 +12,7 @@ listofemail = emails  # List of Email id for sending emails
 msg = email.message.Message()
 msg['Subject'] = 'Hello How are you'
 msg['From'] = 'arc4n30101@gmail.com'
-password = "Mystery-1223"  # create app password in accounts/security
+password = input("Enter your password sir")  # create app password in accounts/security
 msg.add_header('Content-Type', 'text/html')
 msg.set_payload(email_content)
 s = smtplib.SMTP('smtp.gmail.com: 587')
