@@ -1,85 +1,65 @@
-content = """<html>
-<head>    
-   <title>Codeperfectplus Email Newsletter</title>
-   <style type="text/css">
-    a {color: #d80a3e;}
-  body, #header h1, #header h2, p {margin: 0; padding: 0;}
-  #main {border: 1px solid #cfcece;}
-  img {display: block;}
-  #top-message p, #bottom p {color: #3f4042; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
-  #header h1 {color: #ffffff !important; font-family: "Lucida Grande", sans-serif; font-size: 24px; margin-bottom: 0!important; padding-bottom: 0; }
-  #header p {color: #ffffff !important; font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif; font-size: 12px;  }
-  h5 {margin: 0 0 0.8em 0;}
-    h5 {font-size: 18px; color: #444444 !important; font-family: Arial, Helvetica, sans-serif; }
-  p {font-size: 12px; color: #444444 !important; font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif; line-height: 1.5;}
-   </style>
+content = """<!DOCTYPE html>
+<html>
+<head>
+	<title>PRANAV TOMAR</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" type="text/css" href="https://github.com/Mystery01092000/My-Portfolio-WebPage/blob/master/app.css">
 </head>
 <body>
-<table width="100%" cellpadding="0" cellspacing="0" bgcolor="e4e4e4"><tr><td>
-<table id="top-message" cellpadding="20" cellspacing="0" width="600" align="center">
-    <tr>
-      <td align="center">
-        <p><a href="http://codeperfectplus.herokuapp.com/">View in Browser</a></p>
-      </td>
-    </tr>
-  </table>
 
-<table id="main" width="600" align="center" cellpadding="0" cellspacing="15" bgcolor="ffffff">
-    <tr>
-      <td>
-        <table id="header" cellpadding="10" cellspacing="0" align="center" bgcolor="8fb3e9">
-          <tr>
-            <td width="570" align="center"  bgcolor="#d80a3e"><h1>Data Science,ML blog</h1></td>
-          </tr>
-          <tr>
-            <td width="570" align="right" bgcolor="#d80a3e"><p>June 2020</p></td>
-          </tr>
-        </table>
-      </td>
-    </tr>
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://mystery01092000.github.io/My-Portfolio-WebPage/index.html">PRANAV</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://mystery01092000.github.io/My-Portfolio-WebPage/index.html">Home</a></li>
+        <li><a href="https://mystery01092000.github.io/My-Portfolio-WebPage/Html-code/AboutMe.html">About</a></li>
+        <li><a href="https://mystery01092000.github.io/My-Portfolio-WebPage/Html-code/ContactMe.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://mystery01092000.github.io/My-Portfolio-WebPage/Html-code/gallery.html"> My Gallery  
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+            <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+          </svg>
+        </a></li>
+        <li><a href="#about">Login/SignUp <i class="fa fa-user"></i></a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
 
-    <tr>
-      <td>
-        <table id="content-3" cellpadding="0" cellspacing="0" align="center">
-          <tr>
-              <td width="250" valign="top" bgcolor="d0d0d0" style="padding:5px;">
-              <img src="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="250" height="150"  />
-            </td>
-              <td width="15"></td>
-            <td width="250" valign="top" bgcolor="d0d0d0" style="padding:5px;">
-                <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width ="250" height="150" />
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <table id="content-4" cellpadding="0" cellspacing="0" align="center">
-          <tr>
-            <td width="200" valign="top">
-              <h5> <a href="https://codeperfectplus.herokuapp.com/3/">Back to School Data Science AI Open New Doors for Students</a></h5>
-              <p>School is back in session and now is the time students are thinking about their future. what classes should I take? What should I major in? What career should I choose? When considering options, science oriented students are likely thinking about what is arguably today hottest technology artificial intelligence (AI). <a href="https://codeperfectplus.herokuapp.com/3/">Read More</a></p>
-            </td>
-            <td width="15"></td>
-            <td width="200" valign="top">
-              <h5> <a href="https://codeperfectplus.herokuapp.com/2/">A Introduction To Deep Learning, Machine Learning and Artifical Intelligence.</a></h5>
-              <p>Deep learning is a Subfield of Machine learning and machine learning is a subfield of AI. As AI is a broad field we haven't achieved True AI Yet. There are a lot of things to discover in AI. Machine Learning Is basically Statics algorithms which feed on data and reach on a Pleatu after some iteration other hands deep learning aka neural network feeds on a large dataset.<a href="https://codeperfectplus.herokuapp.com/2/">Read More</p> 
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <table id="bottom" cellpadding="20" cellspacing="0" width="600" align="center">
-    <tr>
-      <td align="center">
-        <p>A Data Science PortFolio Project</p>
-        <p><a href="http://codeperfectplus.herokuapp.com/">Follow</a> | <a href="http://codeperfectplus.herokuapp.com/update">Write With Us</a> | <a href="http://codeperfectplus.herokuapp.com/">View in Browser</a></p>
-      </td>
-    </tr>
-  </table><!-- top message -->
-</td></tr></table><!-- wrapper -->
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div class="content">
+ 				<h1>PRANAV</h1>
+ 				<h3>The future of technology is here.</h3>
+ 				<hr>
+ 				<button class="btn btn-default btn-lg">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cpu-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3zm0 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+          </svg>
+         </i> Get Started!</button>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
