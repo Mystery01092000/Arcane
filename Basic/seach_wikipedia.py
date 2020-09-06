@@ -8,5 +8,3 @@ def wiki_search(content):
     sum = wikipedia.summary(result[0])
     print(sum)
     talk(sum)
-
-wiki_search("how are you")

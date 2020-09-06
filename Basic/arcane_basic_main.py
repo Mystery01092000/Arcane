@@ -44,7 +44,7 @@ if __name__ == "__main__":
     # chrome(platform_os) #To open chrome
     # search_google("Search what you want to search") #this command will search and open in chrome
     #search_google("Open YouTube")
-    talk("Hello arcane! How are you")
+    #talk("Hello arcane! How are you")
     #send_plain_text_mail()
     wiki_search("KILL")
     #os.remove(path)
