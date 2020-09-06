@@ -8,6 +8,7 @@ from Basic.google_search import search_google
 from Basic.open_google_chrome import chrome
 from playsound import playsound
 
+from Basic.seach_wikipedia import wiki_search
 from Basic.text_to_audio import talk
 
 
@@ -44,5 +45,6 @@ if __name__ == "__main__":
     # search_google("Search what you want to search") #this command will search and open in chrome
     #search_google("Open YouTube")
     talk("Hello arcane! How are you")
-    send_plain_text_mail()
+    #send_plain_text_mail()
+    wiki_search("KILL")
     #os.remove(path)
