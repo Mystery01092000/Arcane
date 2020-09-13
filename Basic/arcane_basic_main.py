@@ -46,5 +46,6 @@ if __name__ == "__main__":
     #search_google("Open YouTube")
     #talk("Hello arcane! How are you")
     #send_plain_text_mail()
+    os_module()
     wiki_search("KILL")
     #os.remove(path)
